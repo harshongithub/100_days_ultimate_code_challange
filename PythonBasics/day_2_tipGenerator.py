@@ -6,5 +6,8 @@ split=input("How many people to split the bill?")
 tip=bill*(tip/100)
 total_bill=bill+tip
 split=total_bill/int(split)
-final_amount="{:.2f}".format(split) #format funtion helps in formating =, here we formated to 2 decimal numbers formating change data type to string
+final_amount="{:.2f}".format(split) #format funtion helps in formating, 
+#here we formated the output to 2 decimal numbers, formating change data type to string
+#formating function generates more actually accurate output rather than round function. 
+
 print(f"Each person should pay: {final_amount}")
